@@ -143,7 +143,11 @@ function App() {
     {([...skills, ...skills]).map((skill, i) => (
       <span 
         key={i} 
-        className="text-5xl md:text-7xl font-black text-white/5 uppercase italic tracking-tighter transition-colors duration-500 group-hover:text-cyan-400/40"
+       className="text-5xl md:text-7xl font-black 
+           text-cyan-400/30 
+           hover:text-cyan-400/70 
+           transition-colors duration-500 
+           uppercase italic tracking-tighter"
       >
         {skill}
       </span>
@@ -211,7 +215,7 @@ function App() {
       {/* Footer */}
       <footer id="contact" className="py-32 border-t border-white/5 text-center px-6">
         <p className="text-slate-500 text-[9px] font-black uppercase tracking-[0.4em] mb-6 italic">Ready to collaborate?</p>
-        <a href="mailto:shanisr038@gmail.com" className="text-3xl md:text-7xl font-black text-white hover:text-cyan-400 transition-all tracking-tighter leading-none block break-words">
+        <a href="mailto:shanisr038@gmail.com" className="text-3xl md:text-7xl font-black text-cyan-400/30 hover:text-cyan-400/70 transition-all tracking-tighter leading-none block break-words">
           shanisr038<span className="text-cyan-500">@</span>gmail.com
         </a>
         
